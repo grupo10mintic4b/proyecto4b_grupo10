@@ -25,10 +25,11 @@
 
         <ImageView
             android:id="@+id/placeImg"
-            android:layout_width="221dp"
-            android:layout_height="158dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:contentDescription="@string/img_contentDescription_nazareth"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/title"
             app:srcCompat="@drawable/alta_guajira" />
@@ -38,30 +39,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:layout_marginTop="8dp"
             android:text="@string/infoNazareth"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/placeImg" />
+            app:layout_constraintTop_toBottomOf="@+id/placeData" />
 
         <TextView
             android:id="@+id/placeData"
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
             android:text="@string/dataPlace"
-            app:layout_constraintBottom_toTopOf="@id/infoGeneral"
+            android:textAlignment="center"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/placeImg"
-            app:layout_constraintTop_toBottomOf="@id/title" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/placeImg" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
