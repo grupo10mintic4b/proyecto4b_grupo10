@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aguila_POI</string>
+    <string name="nazareth">Nazareth</string>
+    <string name="infoNazareth"><b>Informacion General</b> \nVariados ecosistemas de la Alta Guajira como desiertos, playas, y bosques de nieblas se pueden apreciar durante esta mágica experiencia. Sera inolvidable por la belleza del paisaje y la gran riqueza cultural que se conjuga en el punto mas al norte de todo Sur América. Durante la travesía en Macuira se encontrará con una formación montañosa en medio del desierto generando un oasis en donde se condensa el agua y se crea un ecosistema único de bio diversidad y un color verde fascinante. Este Paraíso mitico y sagrado para la Cultura Wayuu tiene entre sus entrañas nacimientos de agua que bajan de la condensación de la niebla sobre el follaje, forman arroyos y chorros. Es hábitat de micos, tigrillos, el gato pardo, venados, guacharacas, mirlas y azulejos entre otras especies.</string>
+    <string name="img_contentDescription_nazareth">Nazareth, Alta Guajira</string>
+    <string name="dataPlace">Temp \n34ºC \n\nUbic. \nLa Guajira/Colombia\n\nTipo \nDesierto/Oasis</string>
+</resources>
